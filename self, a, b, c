@@ -1,0 +1,5 @@
+def __init__(self,a,b,c):
+    for k,v in locals().items():
+        if k != "self":
+            
+            setattr(self,k,v)
